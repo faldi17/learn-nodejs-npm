@@ -11,5 +11,6 @@
     "npm"
   ],
   "author": "Faldi",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
