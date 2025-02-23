@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "Belajar NodeJS NPM",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faldi17/learn-nodejs-npm.git"
+  },
   "scripts": {
+    "prestart": "echo 'Before Application Start' ",
+    "start": "node index.js",
+    "poststart": "echo 'After Application Start' ",
     "run": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
