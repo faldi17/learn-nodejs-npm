@@ -2,7 +2,10 @@
   "name": "belajar-nodejs-npm",
   "version": "1.0.0",
   "description": "Belajar NodeJS NPM",
-  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/faldi17/learn-nodejs-npm.git"
